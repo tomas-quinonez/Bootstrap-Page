@@ -1,0 +1,123 @@
+.jumbotron {
+  margin-bottom: 0px;
+  padding: 0px;
+  background-image: url("headerimg.jpg");
+  color: navy;
+  font-size: 100px;
+}
+
+#jumbo {
+  color: #51e5a1;
+  filter: grayscale(90%)
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 13px !important;
+    letter-spacing: 2px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: black !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+
+.carousel-inner img {
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+  }
+
+.boxcelu:hover img{
+  transition: all .5s ease-in-out;
+  filter: grayscale(80%) blur(5px);
+}
+
+#myCarousel {
+  height: 700px;
+}
+
+#myCarousel img {
+  height: 700px;
+}
+
+
+.textocelu {
+  font-size: 14px;
+  visibility: hidden;
+  color: #1e14e5;
+  margin-top: 80px;
+}
+
+.boxcelu:hover .textocelu {
+  visibility: visible;
+}
+
+.celulares .textocelu {
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 2px 0px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+
+}
+
+.boxcelu:hover .textocelu {
+    opacity: 1;
+}
+
+.boxcelu img {
+  width: 225px;
+  height: 225px;
+}
+
+.boxcelu h2 {
+  margin-bottom: 30px;
+}
+
+#acerca {
+  color: white;
+  background-color: #2d2d30;
+}
+
+#acerca h2 {
+  text-decoration: underline;
+}
+
+.textoacerca {
+  font-size: 20px;
+}
+
+#contacto img {
+  width: 200px;
+  height: 200px;
+}
